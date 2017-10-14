@@ -1,10 +1,14 @@
 import React, { Component } from 'react';
+import MyProjects from './MyProjects';
 
 export default class App extends Component {
   render() {
     return (
       <div>
-        <h1>MY PERSONAL WEBSITE</h1>
+        <div>
+          <h1>Hi, I'm William Gray</h1>
+        </div>
+        <MyProjects />
       </div>
     )
   }
