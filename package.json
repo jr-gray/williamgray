@@ -31,6 +31,7 @@
     "path": "^0.12.7",
     "popper.js": "^1.12.5",
     "react": "^16.0.0",
+    "react-bootstrap": "^0.31.3",
     "react-dom": "^16.0.0",
     "sass": "^1.0.0-beta.2",
     "url-loader": "^0.6.2",
