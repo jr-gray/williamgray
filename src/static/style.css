@@ -1,0 +1,27 @@
+html,
+body,
+#app,
+.app,
+.fill {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  margin-bottom: 0;
+}
+
+.intro-section {
+  background: url('images/background-image.png') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-top: -60px;
+}
+
+.top-header {
+  color: white;
+  font-size: 7em;
+}

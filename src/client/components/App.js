@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import NavBar from './NavBar';
+import Intro from './Intro.jsx';
 import MyProjects from './MyProjects';
 import AboutMe from './AboutMe';
 import ContactForm from './ContactForm';
@@ -7,9 +8,9 @@ import ContactForm from './ContactForm';
 export default class App extends Component {
   render() {
     return (
-      <div>
+      <div className="app">
         <NavBar />
-        <h1>Hi, I'm William Gray</h1>
+        <Intro />
         <MyProjects />
         <AboutMe />
         <ContactForm />

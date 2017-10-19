@@ -3,8 +3,8 @@ import React, { Component } from 'react';
 export default class AboutMe extends Component {
   render() {
     return (
-      <div>
-        <h2>About Me</h2>
+      <div className="container">
+        <h2 className="section-header text-center">About Me</h2>
         <span>
           I'm a software engineer with a passion for designing and building full stack apps. 
           I've been developing software for five years, both personally and professionally. 
