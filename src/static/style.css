@@ -4,8 +4,6 @@ body,
 .app,
 .fill {
   height: 100%;
-  margin: 0;
-  padding: 0;
 }
 
 .navbar {
@@ -28,3 +26,37 @@ body,
   padding-top: 240px;
 }
 
+.section-header {
+  padding: 1em;
+  font-size: 4rem;
+}
+
+.projects-section {
+  background-color: darkslategray;
+  color: white;
+}
+
+.project-image {
+  max-width: 100%;
+}
+
+.project-link:hover {
+  background-color: lightgray;
+}
+
+.input-field {
+  width: 40%;
+  min-width: 300px;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  margin: 6px;
+}
+
+.input-height {
+  height: 4rem;
+}
+
+.btn-block {
+  max-width: 300px;
+  margin: auto;
+}

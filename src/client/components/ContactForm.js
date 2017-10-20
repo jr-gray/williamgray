@@ -57,15 +57,21 @@ export default class ContactForm extends Component {
 
   render() {
     return (
-      <div>
-        <h2>Contact</h2>
-        <span>Name:</span>
-        <input type="text" name="name" value={this.state.name} onChange={this.handleInput}/>
-        <span>Email:</span>
-        <input type="text" name="email" value={this.state.email} onChange={this.handleInput}/>
-        <textarea placeholder="Enter your message here..." value={this.state.message} 
-          name="message" rows="5" cols="20" onChange={this.handleInput}></textarea>
-        <button className="btn btn-primary btn-block" type="Submit" onClick={this.handleSubmit}>Submit</button>
+      <div id="contact" className="container fill">
+        <div className="row text-center section-header">
+          <h2>Contact</h2>
+        </div>
+        <div className="row text-center">
+          <input className="input-field input-height" type="text" placeholder="Name" name="name" value={this.state.name} onChange={this.handleInput}/>
+        </div>
+        <div className="row text-center">
+          <input className="input-field input-height" type="text" placeholder="Email" name="email" value={this.state.email} onChange={this.handleInput}/>
+        </div>
+        <div className="row text-center">
+          <textarea className="input-field" placeholder="Enter your message here..." value={this.state.message} 
+            name="message" rows="5" cols="50" onChange={this.handleInput}></textarea>
+          <button className="btn btn-primary btn-block" type="Submit" onClick={this.handleSubmit}>Submit</button>
+        </div>
       </div>
     )
   }
