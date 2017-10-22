@@ -1,13 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
 html,
 body,
 #app,
 .app,
 .fill {
   height: 100%;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 100%;
 }
 
 .navbar {
   margin-bottom: 0;
+  border-radius: 0;
 }
 
 .intro-section {
@@ -22,17 +27,37 @@ body,
 
 .top-header {
   color: white;
-  font-size: 7em;
+  font-size: 6rem;
   padding-top: 240px;
 }
 
+hr {
+  display: block;
+  height: 2px;
+  border: 0;
+  margin: 1rem 30rem 3rem;
+  padding: 0;
+}
+
+.hr-light {
+  border-top: 1px solid #ccc;
+}
+
+.hr-dark {
+  border-top: 1px solid #aaa;
+}
+
+.section-margin {
+  padding-bottom: 120px;
+}
+
 .section-header {
-  padding: 1em;
-  font-size: 4rem;
+  padding-top: 1em;
+  font-size: 3rem;
 }
 
 .projects-section {
-  background-color: darkslategray;
+  background-color: rgb(50, 50, 50);
   color: white;
 }
 
@@ -48,15 +73,16 @@ body,
   width: 40%;
   min-width: 300px;
   border-radius: 5px;
-  font-size: 1.5rem;
   margin: 6px;
+  border-style: inset;
+  border-width: 1px;
 }
 
 .input-height {
-  height: 4rem;
+  height: 2.5rem;
 }
 
 .btn-block {
-  max-width: 300px;
+  max-width: 100px;
   margin: auto;
 }
