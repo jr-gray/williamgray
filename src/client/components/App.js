@@ -4,6 +4,7 @@ import Intro from './Intro.jsx';
 import MyProjects from './MyProjects';
 import AboutMe from './AboutMe';
 import ContactForm from './ContactForm';
+import Footer from './Footer';
 
 export default class App extends Component {
   render() {
@@ -14,6 +15,7 @@ export default class App extends Component {
         <AboutMe />
         <MyProjects />
         <ContactForm />
+        <Footer />
       </div>
     )
   }

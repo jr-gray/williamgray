@@ -11,10 +11,9 @@ export default class MyProjects extends Component {
         </div>
         <div className="row">
           <div className="col-md-3"></div>
-          <a href="http://www.woolfey.com">
           <div className="col-md-6 text-center project-link">
-            <h3>Woolfey</h3>
-            <img className="project-image" src='/images/woolfey.png' />
+            <a href="http://www.woolfey.com">
+            <img className="image-theme" src='/images/woolfey.png' />
             <ListGroup>
               <ListGroupItem>React</ListGroupItem>
               <ListGroupItem>Node</ListGroupItem>
@@ -23,16 +22,15 @@ export default class MyProjects extends Component {
               <ListGroupItem>AWS RDS Postgres</ListGroupItem>
               <ListGroupItem>Highcharts</ListGroupItem>
             </ListGroup>
+            </a>
           </div>
-          </a>
           <div className="col-md-3"></div>
         </div>
         <div className="row">
           <div className="col-md-3"></div>
-          <a href="https://www.github.com/jr-gray/syrup">
           <div className="col-md-6 text-center project-link">
-            <h3>Syrup</h3>
-            <img className="project-image" src='/images/syrup.png' />
+            <a href="https://www.github.com/jr-gray/syrup">
+            <img className="image-theme" src='/images/syrup.png' />
             <ListGroup>
               <ListGroupItem>React</ListGroupItem>
               <ListGroupItem>Node</ListGroupItem>
@@ -41,8 +39,8 @@ export default class MyProjects extends Component {
               <ListGroupItem>Postgres</ListGroupItem>
               <ListGroupItem>Auth0</ListGroupItem>
             </ListGroup>
+            </a>
           </div>
-          </a>
           <div className="col-md-3"></div>
         </div>
       </div>

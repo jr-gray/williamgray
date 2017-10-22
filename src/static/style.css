@@ -35,16 +35,10 @@ hr {
   display: block;
   height: 2px;
   border: 0;
-  margin: 1rem 30rem 3rem;
+  margin: 1rem auto 3rem;
+  width: 4rem;
   padding: 0;
-}
-
-.hr-light {
-  border-top: 1px solid #ccc;
-}
-
-.hr-dark {
-  border-top: 1px solid #aaa;
+  border-top: 3px solid #42cef4;
 }
 
 .section-margin {
@@ -61,8 +55,9 @@ hr {
   color: white;
 }
 
-.project-image {
+.image-theme {
   max-width: 100%;
+  border-radius: 8px;
 }
 
 .project-link:hover {
@@ -85,4 +80,25 @@ hr {
 .btn-block {
   max-width: 100px;
   margin: auto;
+}
+
+.footer {
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  background-color: #f5f5f5;
+  font-size: 0.75rem;
+}
+
+.btn-primary {
+  background-color: #42cef4;
+  border: 0;
+}
+
+.bottom-padding {
+  padding-bottom: 2rem;
+}
+
+li {
+  text-decoration: none;
 }

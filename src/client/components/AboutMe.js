@@ -9,8 +9,11 @@ export default class AboutMe extends Component {
           <hr className="hr-dark"/>
         </div>
         <div className="row">
-          <div className="col-md-3"></div>
-          <div className="col-md-6">
+          <div className="col-md-1"></div>
+          <div className="col-md-5 text-center bottom-padding">
+            <img className="image-theme" src="/images/cookieResize.jpg"/>
+          </div>
+          <div className="col-md-5 text-center bottom-padding">
             <span>
               <p>I'm a software engineer with a passion for designing and building full stack apps. 
               I've been developing software for five years, both personally and professionally.</p> 
@@ -31,7 +34,7 @@ export default class AboutMe extends Component {
               at https://www.github.com/jr-gray.</p>
             </span>
           </div>
-          <div className="col-md-3"></div>
+          <div className="col-md-1"></div>
         </div>
         
       </div>
