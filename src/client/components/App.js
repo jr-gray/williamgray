@@ -12,7 +12,6 @@ export default class App extends Component {
       <div className="app">
         <NavBar />
         <Intro />
-        <AboutMe />
         <MyProjects />
         <ContactForm />
         <Footer />

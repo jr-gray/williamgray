@@ -7,9 +7,9 @@ export default class MyProjects extends Component {
   render() {
     return (
       <div id="projects" className="container section-margin text-center">
-        <div className="row">
-          <h1>Projects</h1>
-          <hr />
+        <div className="row section-header">
+          <span>Projects</span>
+          <hr className="line-style"/>
         </div>  
         <a href="http://www.woolfey.com">
           <div className="row">
