@@ -1,8 +1,12 @@
 import React, { Component } from 'react';
 import { Navbar, Nav, NavItem, NavDropdown, MenuItem } from 'react-bootstrap';
+import { LinkContainer } from 'react-router-bootstrap';
 
 export default class NavBar extends Component {
   render() {
+    let linkedin = "https://www.linkedin.com/in/wgrayjr";
+    let github = "https://www.github.com/jr-gray";
+
     return (
       <Navbar collapseOnSelect>
         <Navbar.Header>
@@ -13,9 +17,13 @@ export default class NavBar extends Component {
         </Navbar.Header>
         <Navbar.Collapse>
           <Nav pullRight>
-            <NavItem eventKey={1} href="#about">About Me</NavItem>
-            <NavItem eventKey={2} href="#projects">Projects</NavItem>
-            <NavItem eventKey={3} href="#contact">Contact</NavItem>
+            <NavDropdown eventKey={3} title="Menu" id="basic-nav-dropdown">
+              <MenuItem eventKey={3.1} href={linkedin}>Linkedin</MenuItem>
+              <MenuItem eventKey={3.2} href={github}>Github</MenuItem>
+              <MenuItem eventKey={3.3} href="/#about">About Me</MenuItem>
+              <MenuItem eventKey={3.4} href="/#projects">Projects</MenuItem>
+              <MenuItem eventKey={3.5} href="/#contact">Contact</MenuItem>
+            </NavDropdown>
           </Nav>
         </Navbar.Collapse>
       </Navbar>

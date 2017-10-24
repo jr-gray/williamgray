@@ -21,11 +21,16 @@ body,
 .navbar-default .navbar-brand {
   color: black;
   font-size: 1.5rem;
+  border: 0.1rem solid white;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+  border-bottom: 0.1rem solid #42cef4;
 }
 
 .top-header {
-  font-size: 7rem;
-  padding-top: 17rem;
+  font-size: 8.5rem;
+  padding-top: 20%;
 }
 
 hr {
@@ -42,7 +47,7 @@ hr {
   background: url('images/caret.png') no-repeat center center;
   background-size: 6rem 3rem;
   display: block;
-  padding-top: 30rem;
+  padding-top: 50%;
 }
 
 .section-margin {
@@ -54,9 +59,9 @@ hr {
   font-size: 3rem;
 }
 
-.projects-section {
-  background-color: rgb(50, 50, 50);
-  color: white;
+.about-section {
+  font-size: 1.5rem;
+  font-family: sans-serif;
 }
 
 .image-theme {
@@ -64,8 +69,8 @@ hr {
   border-radius: 8px;
 }
 
-.project-link:hover {
-  background-color: lightgray;
+.carousel-image {
+  max-width: 100%;
 }
 
 .input-field {
