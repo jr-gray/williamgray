@@ -10,9 +10,9 @@ export default class NavBar extends Component {
     return (
       <Navbar collapseOnSelect>
         <Navbar.Header>
-          <Navbar.Brand>
+          {/* <Navbar.Brand>
             <a href="/">William Gray</a>
-          </Navbar.Brand>
+          </Navbar.Brand> */}
           <Navbar.Toggle />
         </Navbar.Header>
         <Navbar.Collapse>

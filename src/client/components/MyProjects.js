@@ -6,28 +6,26 @@ import SyrupCarousel from './SyrupCarousel';
 export default class MyProjects extends Component {
   render() {
     return (
-      <div id="projects" className="container section-margin text-center">
-        <div className="row section-header">
-          <span>Projects</span>
-          <hr className="line-style"/>
+      <div id="projects" className="container section-margin">
+        <div className="row project-div">
+          <span className="top-header">Woolfey</span>
+          <p className="my-project">Cryptocurrency trading simulator with
+            machine learning models.</p>
         </div>  
-        <a href="http://www.woolfey.com">
-          <div className="row">
+        <div className="row project-entry">
+          <a href="http://www.woolfey.com">
             <WoolfeyCarousel />
-          </div>
-        </a>
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <a href="https://www.github.com/jr-gray/syrup">
-          <div className="row">
+          </a>
+        </div>
+        <div className="row project-div">
+          <span className="top-header">Syrup</span>
+          <p className="my-project">Facial Recognition dating app.</p>
+        </div> 
+        <div className="row project-entry">
+          <a href="https://www.github.com/jr-gray/syrup">
             <SyrupCarousel />
-          </div>
-        </a>
+          </a>
+        </div>
       </div>
     )
   }

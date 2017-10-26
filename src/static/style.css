@@ -15,20 +15,15 @@ body,
   height: 95%;
 }
 
-.fill {
-  background-image: url('./images/cookie.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 .intro-section {
   background-color: white;
-  padding: 5rem;
-  margin-top: 65px;
+  padding: 8rem;
+  margin-top: 85px;
 }
 
 .contact {
-  background-color: whitesmoke;
+  background-color: #505050;
+  color: white;
 }
 
 .navbar {
@@ -42,14 +37,12 @@ body,
 .navbar-default .navbar-brand {
   font-size: 1.5rem;
   border: 0;
-}
-
-.navbar-brand {
-  color: #42cef4;
+  color: #505050;
 }
 
 .top-header {
   font-size: 6rem;
+  color: #2c99b7;
 }
 
 .line-style {
@@ -57,7 +50,7 @@ body,
   margin: 4rem auto 4rem;
   width: 10rem;
   padding: 0;
-  border-top: .3rem solid #42cef4;
+  border-top: .3rem solid #2c99b7;
 }
 
 .homepage-caret {
@@ -67,18 +60,50 @@ body,
   padding-top: 20%;
 }
 
+.vertical-line {
+  border-right: 1px solid #505050;
+  padding: 10px;
+}
+
+.project-about-section {
+  font-size: 2.4rem;
+}
+
 .section-margin {
   padding-bottom: 12rem;
 }
 
 .section-header {
-  font-size: 5rem;
+  font-size: 7.5rem;
   margin-top: 5rem;
 }
 
+.technologies {
+  background-color: #505050;
+  color: white;
+  font-size: 2.5rem;
+  padding-bottom: 50px;
+}
+
+.tech-entry {
+  background-color: #505050;
+  color: #2c99b7;
+  border: 2px solid #2c99b7;
+  border-radius: 6px;
+  width: 250px;
+  padding: 12px;
+  margin: 20px auto;
+  cursor: pointer;
+}
+
+.tech-entry:hover {
+  background-color: white;
+}
+
 .about-section {
-  font-size: 1.6rem;
+  font-size: 3.6rem;
   font-family: 'Source Sans Pro', sans-serif;
+  color: #505050;
 }
 
 .image-theme {
@@ -99,6 +124,7 @@ body,
   border-width: 0.1rem;
   font-size: 1.5rem;
   padding: 1rem;
+  color: #505050;
 }
 
 .input-height {
@@ -118,8 +144,21 @@ body,
   font-size: 1.1rem;
 }
 
+.project-div {
+  padding: 50px 0 10px 50px;
+}
+
+.my-project {
+  font-size: 3rem;
+  color: #505050;
+}
+
+.project-entry {
+  margin-bottom: 80px;
+}
+
 .btn-primary {
-  background-color: #42cef4;
+  background-color: #2c99b7;
   border: 0;
 }
 

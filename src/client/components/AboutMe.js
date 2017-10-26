@@ -3,27 +3,95 @@ import React, { Component } from 'react';
 export default class AboutMe extends Component {
   render() {
     return (
-      <div id="about" className="container-fluid section-margin">
-        <div className="row section-header text-center">
-          <span>About Me</span>
+      <div id="about" className="container-fluid technologies text-center">
+        <div className="row section-header">
+          <span>Technologies</span>
           <hr className="line-style"/>
         </div>
-        <div className="row about-section">
-          <div className="col-md-3"></div>
-          <div className="col-md-6 bottom-padding">
-            <span>
-              <p>I'm a software engineer with a passion for developing intuitive 
-                and scalable user-facing apps. I've been developing applications 
-                for 5 years, 4 of which were at Encore Capital Group, where I 
-                designed data transportation software in Python and SQL.</p>
-              
-              <p>Some of my favorite technologies are JavaScript (ES6), Python, 
-                SQL, React + Redux, Angular 4, Node, Express, MongoDB, PostgreSQL, 
-                MySQL, CSS3 + SASS, HTML5, Bootstrap, Redis, AWS (Amazon Web Services), 
-                EC2, S3, Django, Flask, Cron, NGINX, and Docker.</p>
-            </span>
+        <div className="row">
+          <div className="col-md-4">
+            <div className="tech-entry">
+              JavaScript (ES6)
+            </div>
           </div>
-          <div className="col-md-3"></div>
+          <div className="col-md-4">
+            <div className="tech-entry">
+              Python
+            </div>
+          </div>
+          <div className="col-md-4">
+            <div className="tech-entry">
+              React + Redux
+            </div>
+          </div>
+        </div>
+        <div className="row">
+          <div className="col-md-4">
+            <div className="tech-entry">
+              Node.js
+            </div>
+          </div>
+          <div className="col-md-4">
+            <div className="tech-entry">
+              Angular 4
+            </div>
+          </div>
+          <div className="col-md-4">
+            <div className="tech-entry">
+              Redis
+            </div>
+          </div>
+        </div> 
+        <div className="row">
+          <div className="col-md-4">
+            <div className="tech-entry">
+              Express
+            </div>
+          </div>
+          <div className="col-md-4">
+            <div className="tech-entry">
+              MongoDB
+            </div>
+          </div>
+          <div className="col-md-4">
+            <div className="tech-entry">
+              PostgreSQL
+            </div>
+          </div>
+        </div>
+        <div className="row">
+          <div className="col-md-4">
+            <div className="tech-entry">
+              MySQL
+            </div>
+          </div>
+          <div className="col-md-4">
+            <div className="tech-entry">
+              Django
+            </div>
+          </div>
+          <div className="col-md-4">
+            <div className="tech-entry">
+              AWS
+            </div>
+          </div>
+        </div>
+        <div className="row">
+          <div className="col-md-4">
+            <div className="tech-entry">
+              CSS3 + SASS
+            </div>
+          </div>
+          <div className="col-md-4">
+            <div className="tech-entry">
+              HTML5
+            </div>
+          </div>
+          <div className="col-md-4">
+            <div className="tech-entry">
+              Bootstrap
+            </div>
+          </div>
         </div>
       </div>
     )
