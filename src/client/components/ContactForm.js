@@ -57,7 +57,7 @@ export default class ContactForm extends Component {
 
   render() {
     return (
-      <div id="contact" className="container-fluid section-margin">
+      <div id="contact" className="container-fluid section-margin contact">
         <div className="row text-center section-header">
           <span>Contact</span>
           <hr className="line-style"/>

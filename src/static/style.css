@@ -10,40 +10,52 @@ body,
   font-size: 62.5%;
 }
 
+.fill,
+.contact {
+  height: 95%;
+}
+
 .fill {
-  height: 98%;
-  background-color: #eeeeee;
+  background-image: url('./images/cookie.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.intro-section {
+  background-color: white;
+  padding: 5rem;
+  margin-top: 65px;
+}
+
+.contact {
+  background-color: whitesmoke;
 }
 
 .navbar {
   border-radius: 0;
   border: 0;
-  background-color: #eeeeee;
   margin-bottom: 0;
+  background-color: white;
 }
 
 .navbar-default .navbar-nav>li>a,
 .navbar-default .navbar-brand {
-  color: black;
   font-size: 1.5rem;
-  border: 0.1rem solid #eeeeee;
+  border: 0;
 }
 
-.navbar-default .navbar-nav>li>a:hover {
-  border-bottom: 0.1rem solid #42cef4;
+.navbar-brand {
+  color: #42cef4;
 }
 
 .top-header {
-  font-size: 9rem;
-  padding-top: 20%;
+  font-size: 6rem;
 }
 
 .line-style {
-  display: block;
-  height: 3rem;
   border: 0;
-  margin: 2rem auto 4rem;
-  width: 5rem;
+  margin: 4rem auto 4rem;
+  width: 10rem;
   padding: 0;
   border-top: .3rem solid #42cef4;
 }
@@ -52,7 +64,7 @@ body,
   background: url('images/caret.png') no-repeat center center;
   background-size: 6rem 3rem;
   display: block;
-  padding-top: 50%;
+  padding-top: 20%;
 }
 
 .section-margin {
@@ -61,7 +73,7 @@ body,
 
 .section-header {
   font-size: 5rem;
-  margin-top: 10rem;
+  margin-top: 5rem;
 }
 
 .about-section {

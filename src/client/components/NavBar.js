@@ -20,7 +20,6 @@ export default class NavBar extends Component {
             <NavDropdown eventKey={3} title="Menu" id="basic-nav-dropdown">
               <MenuItem eventKey={3.1} href={linkedin}>Linkedin</MenuItem>
               <MenuItem eventKey={3.2} href={github}>Github</MenuItem>
-              <MenuItem eventKey={3.3} href="/#about">About Me</MenuItem>
               <MenuItem eventKey={3.4} href="/#projects">Projects</MenuItem>
               <MenuItem eventKey={3.5} href="/#contact">Contact</MenuItem>
             </NavDropdown>
