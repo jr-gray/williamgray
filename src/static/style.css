@@ -174,10 +174,11 @@ li {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
   margin: auto;
   max-width: 95%;
+  margin-bottom: 24px;
 }
 
 .profileContainer {
-  padding: 0 16px 8px;
+  padding: 24px 16px 8px;
 }
 
 .cardButton {
@@ -196,5 +197,27 @@ li {
 .form-control {
   height: 45px;
   font-size: 1.6rem;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card-header,
+.card-info {
+  color: #505050;
+}
+
+.card-header {
+  font-size: 3.2rem;
+}
+
+.card-info {
+  font-size: 1.8rem;
+}
+
+div.profileCard a {
+  text-decoration: none;
+}
+
+.project-link {
+  font-size: 1.4rem;
+  color: #505050;
 }
