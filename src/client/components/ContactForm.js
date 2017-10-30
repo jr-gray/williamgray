@@ -57,10 +57,9 @@ export default class ContactForm extends Component {
 
   render() {
     return (
-      <div id="contact" className="container-fluid section-margin contact">
-        <div className="row text-center section-header">
-          <span>Contact</span>
-          <hr className="line-style"/>
+      <div id="contact" className="container-fluid contact">
+        <div className="row contact-header text-center">
+          Contact
         </div>
         <div className="row text-center">
           <input className="input-field input-height" type="text" placeholder="Name" name="name" value={this.state.name} onChange={this.handleInput}/>

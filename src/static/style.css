@@ -10,20 +10,25 @@ body,
   font-size: 62.5%;
 }
 
-.fill,
-.contact {
+.fill {
   height: 95%;
 }
 
 .intro-section {
   background-color: white;
-  padding: 8rem;
-  margin-top: 85px;
+  padding: 5rem;
+  margin-top: 75px;
 }
 
 .contact {
   background-color: #505050;
   color: white;
+  padding: 100px 0;
+}
+
+.contact-header {
+  font-size: 3.6rem;
+  margin-bottom: 10px;
 }
 
 .navbar {
@@ -45,19 +50,16 @@ body,
   color: #2c99b7;
 }
 
-.line-style {
-  border: 0;
-  margin: 4rem auto 4rem;
-  width: 10rem;
-  padding: 0;
-  border-top: .3rem solid #2c99b7;
+.hr-padding {
+  margin-top: 30px;
+  width: 93%;
 }
 
 .homepage-caret {
   background: url('images/caret.png') no-repeat center center;
   background-size: 6rem 3rem;
   display: block;
-  padding-top: 20%;
+  padding-top: 40%;
 }
 
 .vertical-line {
@@ -73,16 +75,16 @@ body,
   padding-bottom: 12rem;
 }
 
-.section-header {
-  font-size: 7.5rem;
-  margin-top: 5rem;
-}
-
 .technologies {
   background-color: #505050;
   color: white;
   font-size: 2.5rem;
-  padding-bottom: 50px;
+  padding: 50px;
+}
+
+.technologies-width {
+  max-width: 850px;
+  margin: auto;
 }
 
 .tech-entry {
@@ -90,7 +92,7 @@ body,
   color: #2c99b7;
   border: 2px solid #2c99b7;
   border-radius: 6px;
-  width: 250px;
+  width: 225px;
   padding: 12px;
   margin: 20px auto;
   cursor: pointer;
@@ -101,7 +103,7 @@ body,
 }
 
 .about-section {
-  font-size: 3.6rem;
+  font-size: 2.4rem;
   font-family: 'Source Sans Pro', sans-serif;
   color: #505050;
 }
@@ -178,7 +180,7 @@ li {
 }
 
 .profileContainer {
-  padding: 24px 16px 8px;
+  padding: 0 16px 8px;
 }
 
 .cardButton {
@@ -195,22 +197,22 @@ li {
 }
 
 .form-control {
-  height: 45px;
+  height: 54px;
   font-size: 1.6rem;
+  line-height: 4rem;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-}
-
-.card-header,
-.card-info {
-  color: #505050;
+  display: inline-block;
+  padding-right: 110px;
 }
 
 .card-header {
   font-size: 3.2rem;
+  color: #2c99b7;
 }
 
 .card-info {
   font-size: 1.8rem;
+  color: #505050;
 }
 
 div.profileCard a {
@@ -220,4 +222,28 @@ div.profileCard a {
 .project-link {
   font-size: 1.4rem;
   color: #505050;
+}
+
+.btn-display {
+  display: inline-block;
+}
+
+#projects {
+  padding: 45px 0 25px;
+}
+
+.intro-btn {
+  vertical-align: top;
+  line-height: 1.5;
+  color: white;
+  background-color: #2c99b7;
+  width: 90px;
+  margin-left: -100px;
+  margin-top: 10px;
+}
+
+.intro-btn:hover {
+  border-color: #2c99b7;
+  color: #2c99b7;
+  background-color: white;
 }
